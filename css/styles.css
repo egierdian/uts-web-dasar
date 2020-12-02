@@ -1,0 +1,217 @@
+/* Body */
+body {
+    font-family: 'Comfortaa', cursive;
+    color: black;
+    background-color: #3F4254;
+}
+/* notfound */
+#notfound {
+    min-height: 400px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    background-color: #ffffff;
+}
+#notfound .container .card {
+    border: none;
+    margin-bottom: 30px;
+}
+/* navbar */
+.custom-nav {
+    /* background-color: #3F4254; */
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.custom-nav .navbar-brand span {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #3d97d3;
+}
+.custom-nav .navbar-nav .nav-link{
+    margin-right: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #f2f3f7;
+}
+.custom-nav .navbar-nav .btn {
+    border: none;
+}
+.custom-nav .navbar-nav .nav-link:hover{
+    background-color: #3d4364;
+}
+
+/* home */
+#home {
+    padding-top: 30px;
+    padding-bottom: 35px;
+    background-color: #ffffff;
+}
+#home .container .row .card {
+    box-shadow: 5px 7px 10px 2px rgb(100, 99, 99);
+    margin-bottom: 30px;
+}
+#home .container .row .card .card-text{
+    color: black;
+}
+#home .container .row .card:hover {
+    margin-bottom: 35px;
+    margin-top: -5px; 
+}
+
+/* contact */
+#contact {
+    padding-top: 30px;
+    padding-bottom: 35px; 
+    background-color: #ffffff;
+}
+#contact .container .card {
+    border-radius: 5px;
+    box-shadow: 5px 7px 10px 2px rgb(100, 99, 99);
+    margin-bottom: 30px;
+}
+#contact .container .card .card-body {
+    color: black;
+}
+
+/* article */
+#article {
+    padding-top: 30px;
+    padding-bottom: 35px;
+    background-color: #ffffff;
+}
+#article .container .row .card {
+    box-shadow: 5px 7px 10px 2px rgb(100, 99, 99);
+    margin-bottom: 30px;
+}
+#article .container .row .card img{
+    height: 300px;
+}
+#article .container .row .card .card-text{
+    color: black;
+}
+#article .container .row .card:hover {
+    margin-bottom: 35px;
+    margin-top: -5px; 
+}
+
+/* article */
+#product {
+    padding-top: 30px;
+    padding-bottom: 35px;
+    background-color: #ffffff;
+}
+#product .container .row .card {
+    box-shadow: 5px 7px 10px 2px rgb(100, 99, 99);
+    margin-bottom: 30px;
+}
+#product .container .row .card .card-text{
+    color: black;
+}
+#product .container .row .card:hover {
+    margin-bottom: 35px;
+    margin-top: -5px; 
+}
+
+/* about */
+#about {
+    padding-top: 30px;
+    padding-bottom: 35px;
+    background-color: #ffffff;
+}
+#about .container .row .card {
+    box-shadow: 5px 7px 10px 2px rgb(100, 99, 99);
+    margin-bottom: 30px;
+}
+#about .container .row .card .card-text{
+    color: black;
+}
+
+/* member */
+#member {
+    padding-top: 30px;
+    padding-bottom: 35px;
+    background-color: #ffffff;
+}
+#member .container .row .card {
+    box-shadow: 5px 7px 10px 2px rgb(100, 99, 99);
+    margin-top: 80px;
+    margin-bottom: 30px;
+    border-top: solid 5px #3F4254;
+}
+#member .container .row .card .card-body {
+    text-align: center;
+}
+#member .container .row .card .card-body img{
+    height:150px;
+    width: 150px;  
+    margin-top:-100px;
+    margin-bottom: 20px;
+    box-shadow: 5px 7px 10px 2px rgb(100, 99, 99);
+}
+
+#testimonial .container .row .card .card-text{
+    color: black;
+}
+
+/* testi */
+#testimonial {
+    padding-top: 30px;
+    padding-bottom: 35px;
+    background-color: #ffffff;
+}
+#testimonial .container .custom-heading {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align:center;
+}
+#testimonial .container .row .card {
+    box-shadow: 5px 7px 10px 2px rgb(100, 99, 99);
+    margin-top: 130px;
+    margin-bottom: 30px;
+    border-top: solid 5px #3F4254;
+}
+#testimonial .container .row .card .card-body {
+    text-align: center;
+}
+#testimonial .container .row .card .card-body img{
+    height:150px;
+    width: 150px;  
+    margin-top:-100px;
+    margin-bottom: 20px;
+}
+
+#testimonial .container .row .card .card-text{
+    text-align: center;
+    color: black;
+}
+
+/* footer */
+footer {
+    padding-top: 30px;
+}
+.custom-footer {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.0rem;
+    padding: 30px 0px;
+    background-color: #585c7a;
+    min-height: 100px;
+    text-align: center;
+}
+.custom-footer p {
+    margin-bottom: 10px;
+    color: #dadce6;
+}
+.custom-footer a {
+    background-color: rgb(24, 23, 23);
+    box-shadow: 3px 5px 3px rgb(20, 20, 20);
+    padding: 2px 15px;
+    border-radius: 5px;
+    color: #dadce6;
+    text-decoration: none;
+}
+.custom-footer a:hover {
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-bottom: -3px;
+    box-shadow: none;
+}
+
